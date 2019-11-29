@@ -6,6 +6,7 @@ module FormsLab
     get '/' do
       erb :"pirates/new"
     end
+<<<<<<< HEAD
 
     get '/new' do
       erb :"pirates/new"
@@ -21,6 +22,8 @@ module FormsLab
       @ship2 = Ship.all[1]
       erb :"pirates/show"
     end
+=======
+>>>>>>> 2d9bd3420d8a5aca1963d2d64b916d26f59ca535
 
   end
 end
